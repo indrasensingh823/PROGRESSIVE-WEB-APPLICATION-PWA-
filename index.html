@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Enhanced E-commerce PWA</title>
+    <meta name="description" content="A progressive web app for e-commerce shopping">
+
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="ShopEase">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="light-theme">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <h1 class="logo">ShopEase</h1>
+                <div class="nav-center">
+                    <nav class="nav-links desktop-only">
+                        <a href="#home" class="nav-link active">Home</a>
+                        <a href="#products" class="nav-link">Products</a>
+                        <a href="#categories" class="nav-link">Categories</a>
+                        <a href="#deals" class="nav-link">Deals</a>
+                        <a href="#about" class="nav-link">About</a>
+                    </nav>
+                </div>
+                <div class="nav-actions">
+                    <button id="themeToggle" class="btn-icon" title="Toggle Theme">
+                        🌙
+                    </button>
+                    <button id="wishlistBtn" class="btn-icon" title="Wishlist">
+                        ❤️
+                        <span id="wishlistCount" class="count-badge">0</span>
+                    </button>
+                    <button id="notificationBtn" class="btn-icon" title="Toggle Notifications">
+                        🔔
+                    </button>
+                    <button id="cartBtn" class="btn-icon" title="Shopping Cart">
+                        🛒
+                        <span id="cartCount" class="count-badge">0</span>
+                    </button>
+                    <button id="userBtn" class="btn-icon" title="User Account">
+                        👤
+                    </button>
+                    <button id="menuBtn" class="btn-icon mobile-only">
+                        ☰
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>Welcome to ShopEase</h2>
+                        <p>Discover amazing products with advanced features like dark mode, wishlist, user accounts, and
+                            much more!</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" onclick="scrollToSection('products')">Shop Now</button>
+                            <button class="btn btn-secondary" onclick="scrollToSection('categories')">Browse
+                                Categories</button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-icon">🛒</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="categories-section section">
+            <div class="container">
+                <h2 class="section-title">Shop by Category</h2>
+                <div id="categoriesGrid" class="categories-grid">
+                    <!-- Categories will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Deals Section -->
+        <section id="deals" class="deals-section section">
+            <div class="container">
+                <h2 class="section-title">Today's Deals</h2>
+                <div class="deals-banner">
+                    <div class="deal-timer">
+                        <h3>Flash Sale Ends In:</h3>
+                        <div id="countdown" class="countdown">
+                            <div class="time-unit">
+                                <span id="hours">00</span>
+                                <label>Hours</label>
+                            </div>
+                            <div class="time-unit">
+                                <span id="minutes">00</span>
+                                <label>Minutes</label>
+                            </div>
+                            <div class="time-unit">
+                                <span id="seconds">00</span>
+                                <label>Seconds</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dealsGrid" class="products-grid">
+                    <!-- Deal products will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>All Products</h2>
+                    <div class="filters-container">
+                        <div class="search-container">
+                            <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
+                            <button class="search-btn" onclick="searchProducts()">🔍</button>
+                        </div>
+                        <select id="categoryFilter" class="filter-select">
+                            <option value="">All Categories</option>
+                        </select>
+                        <select id="priceFilter" class="filter-select">
+                            <option value="">All Prices</option>
+                            <option value="0-2000">₹0 - ₹2,000</option>
+                            <option value="2000-5000">₹2,000 - ₹5,000</option>
+                            <option value="5000-10000">₹5,000 - ₹10,000</option>
+                            <option value="10000+">₹10,000+</option>
+                        </select>
+                        <select id="sortFilter" class="filter-select">
+                            <option value="">Sort By</option>
+                            <option value="name-asc">Name A-Z</option>
+                            <option value="name-desc">Name Z-A</option>
+                            <option value="price-asc">Price Low-High</option>
+                            <option value="price-desc">Price High-Low</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Offline Indicator -->
+                <div id="offlineIndicator" class="offline-indicator hidden">
+                    <p>📱 <strong>Offline Mode:</strong> You're browsing cached products</p>
+                </div>
+
+                <!-- Products Grid -->
+                <div id="productsGrid" class="products-grid">
+                    <!-- Products will be loaded here -->
+                </div>
+
+                <!-- Loading Spinner -->
+                <div id="loadingSpinner" class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Loading products...</p>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-container">
+                    <button id="loadMoreBtn" class="btn btn-secondary">Load More Products</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section">
+            <div class="container">
+                <h2 class="section-title">Why Choose ShopEase?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Free Shipping</h3>
+                        <p>On orders over ₹500</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Works Offline</h3>
+                        <p>Browse products without internet</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔔</div>
+                        <h3>Push Notifications</h3>
+                        <p>Stay updated with latest offers</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">❤️</div>
+                        <h3>Wishlist</h3>
+                        <p>Save your favorite items</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌙</div>
+                        <h3>Dark Mode</h3>
+                        <p>Easy on your eyes</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👤</div>
+                        <h3>User Accounts</h3>
+                        <p>Personalized experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ShopEase</h3>
+                    <p>Your trusted e-commerce partner with cutting-edge PWA technology.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#deals">Deals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#support">Support</a></li>
+                        <li><a href="#returns">Returns</a></li>
+                        <li><a href="#shipping">Shipping Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-links facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-links instagram" title="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-links twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-links linkedin" title="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-links youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-links whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ShopEase. All rights reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Shopping Cart</h2>
+                <button class="close-btn" onclick="closeCart()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="cartItems" class="cart-items">
+                    <!-- Cart items will be loaded here -->
+                </div>
+                <div class="cart-summary">
+                    <div class="promo-code">
+                        <input type="text" id="promoInput" placeholder="Enter promo code" class="promo-input">
+                        <button class="btn btn-secondary" onclick="applyPromoCode()">Apply</button>
+                    </div>
+                    <div class="cart-totals">
+                        <div class="total-line">
+                            <span>Subtotal:</span>
+                            <span>₹<span id="cartSubtotal">0</span></span>
+                        </div>
+                        <div class="total-line">
+                            <span>Discount:</span>
+                            <span>-₹<span id="cartDiscount">0</span></span>
+                        </div>
+                        <div class="total-line">
+                            <span>Shipping:</span>
+                            <span id="shippingCost">Free</span>
+                        </div>
+                        <div class="total-line total">
+                            <span><strong>Total:</strong></span>
+                            <span><strong>₹<span id="cartTotal">0</span></strong></span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-full" onclick="checkout()">
+                        Proceed to Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wishlist Modal -->
+    <div id="wishlistModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>My Wishlist</h2>
+                <button class="close-btn" onclick="closeWishlist()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="wishlistItems" class="wishlist-items">
+                    <!-- Wishlist items will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div id="productModal" class="modal hidden">
+        <div class="modal-content large">
+            <div class="modal-header">
+                <h2 id="productTitle">Product Details</h2>
+                <button class="close-btn" onclick="closeProductModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="productDetails" class="product-details">
+                    <!-- Product details will be loaded here -->
+                </div>
+                <div class="product-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div id="reviewsContainer" class="reviews-container">
+                        <!-- Reviews will be loaded here -->
+                    </div>
+                    <div class="add-review">
+                        <h4>Add Your Review</h4>
+                        <div class="rating-input">
+                            <span>Rating: </span>
+                            <div class="stars" id="ratingStars">
+                                <span class="star" data-rating="1">⭐</span>
+                                <span class="star" data-rating="2">⭐</span>
+                                <span class="star" data-rating="3">⭐</span>
+                                <span class="star" data-rating="4">⭐</span>
+                                <span class="star" data-rating="5">⭐</span>
+                            </div>
+                        </div>
+                        <textarea id="reviewText" placeholder="Write your review..." class="review-textarea"></textarea>
+                        <button class="btn btn-primary" onclick="addReview()">Submit Review</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Account Modal -->
+    <div id="userModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="userModalTitle">User Account</h2>
+                <button class="close-btn" onclick="closeUserModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="loginForm" class="auth-form">
+                    <h3>Login</h3>
+                    <input type="email" id="loginEmail" placeholder="Email" class="auth-input">
+                    <input type="password" id="loginPassword" placeholder="Password" class="auth-input">
+                    <button class="btn btn-primary btn-full" onclick="login()">Login</button>
+                    <p class="auth-switch">Don't have an account? <a href="#" onclick="showSignup()">Sign up</a></p>
+                </div>
+                <div id="signupForm" class="auth-form hidden">
+                    <h3>Sign Up</h3>
+                    <input type="text" id="signupName" placeholder="Full Name" class="auth-input">
+                    <input type="email" id="signupEmail" placeholder="Email" class="auth-input">
+                    <input type="password" id="signupPassword" placeholder="Password" class="auth-input">
+                    <input type="password" id="signupConfirmPassword" placeholder="Confirm Password" class="auth-input">
+                    <button class="btn btn-primary btn-full" onclick="signup()">Sign Up</button>
+                    <p class="auth-switch">Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+                </div>
+                <div id="userProfile" class="user-profile hidden">
+                    <h3>Welcome, <span id="userName"></span>!</h3>
+                    <div class="profile-info">
+                        <p><strong>Email:</strong> <span id="userEmail"></span></p>
+                        <p><strong>Member since:</strong> <span id="memberSince"></span></p>
+                    </div>
+                    <div class="profile-actions">
+                        <button class="btn btn-secondary" onclick="viewOrderHistory()">Order History</button>
+                        <button class="btn btn-secondary" onclick="editProfile()">Edit Profile</button>
+                        <button class="btn btn-danger" onclick="logout()">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Install Prompt -->
+    <div id="installPrompt" class="install-prompt hidden">
+        <div class="install-content">
+            <div class="install-text">
+                <h3>Install ShopEase App</h3>
+                <p id="installMessage">Install our app for a better experience</p>
+            </div>
+            <div class="install-actions">
+                <button id="installBtn" class="btn btn-primary">Install</button>
+                <button id="dismissBtn" class="btn btn-secondary">Dismiss</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobileNav" class="mobile-nav hidden">
+        <div class="mobile-nav-content">
+            <a href="#home" class="mobile-nav-link">🏠 Home</a>
+            <a href="#products" class="mobile-nav-link">📦 Products</a>
+            <a href="#categories" class="mobile-nav-link">📂 Categories</a>
+            <a href="#deals" class="mobile-nav-link">🔥 Deals</a>
+            <a href="#about" class="mobile-nav-link">ℹ️ About</a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1640 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Headphones",
+    "price": 8299,
+    "description": "Premium wireless headphones with noise cancellation and 30-hour battery life. Perfect for music lovers.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "2",
+    "name": "Smart Watch",
+    "price": 20749,
+    "description": "Advanced smartwatch with health tracking, GPS, and 7-day battery life. Water resistant up to 50m.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "3",
+    "name": "Leather Wallet",
+    "price": 4149,
+    "description": "Genuine leather wallet with RFID protection and 8 card slots. Handcrafted premium quality.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&h=600&fit=crop&crop=center",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "4",
+    "name": "Bluetooth Speaker",
+    "price": 5999,
+    "description": "Portable waterproof speaker with 20W output and 15-hour playtime. Perfect for outdoor adventures.",
+    "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "5",
+    "name": "Running Shoes",
+    "price": 7499,
+    "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center",
+    "category": "footwear",
+    "inStock": true
+  },
+  {
+    "id": "6",
+    "name": "Backpack",
+    "price": 3899,
+    "description": "Durable backpack with laptop compartment and USB charging port. Water-resistant material.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop&crop=center",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "7",
+    "name": "Smartphone",
+    "price": 65999,
+    "description": "Flagship smartphone with triple camera system, 120Hz display, and all-day battery.",
+    "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "8",
+    "name": "Coffee Maker",
+    "price": 12499,
+    "description": "Programmable coffee maker with thermal carafe and built-in grinder. Makes 12 cups.",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "9",
+    "name": "Sunglasses",
+    "price": 2899,
+    "description": "Polarized sunglasses with UV400 protection and lightweight metal frame.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop&crop=center",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "10",
+    "name": "Fitness Tracker",
+    "price": 3499,
+    "description": "Track steps, calories, sleep and heart rate with this comfortable fitness band.",
+    "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "11",
+    "name": "Wireless Earbuds",
+    "price": 12999,
+    "description": "True wireless earbuds with active noise cancellation and spatial audio.",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "12",
+    "name": "Desk Lamp",
+    "price": 2299,
+    "description": "Adjustable LED desk lamp with 5 brightness levels and color temperatures.",
+    "image": "https://images.unsplash.com/photo-1601642964568-1917224f4e4d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzayUyMGxhbXB8ZW58MHx8MHx8fDA%3D",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "13",
+    "name": "Yoga Mat",
+    "price": 1799,
+    "description": "Eco-friendly yoga mat with non-slip surface and carrying strap. 6mm thickness.",
+    "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=600&fit=crop&crop=center",
+    "category": "fitness",
+    "inStock": true
+  },
+  {
+    "id": "14",
+    "name": "Dumbbell Set",
+    "price": 4999,
+    "description": "Adjustable dumbbell set with 5-25kg range. Perfect for home workouts.",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop&crop=center",
+    "category": "fitness",
+    "inStock": true
+  },
+  {
+    "id": "15",
+    "name": "Air Fryer",
+    "price": 8999,
+    "description": "Digital air fryer with 5.5L capacity and 8 preset cooking programs.",
+    "image": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "16",
+    "name": "Smart TV",
+    "price": 54999,
+    "description": "55\" 4K Smart TV with HDR and built-in voice assistants. Android TV platform.",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "17",
+    "name": "Gaming Console",
+    "price": 44999,
+    "description": "Next-gen gaming console with 1TB SSD and 4K/120fps support.",
+    "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "18",
+    "name": "Wireless Keyboard",
+    "price": 3499,
+    "description": "Slim wireless keyboard with quiet low-profile keys and 2-year battery life.",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "19",
+    "name": "Portable SSD",
+    "price": 8999,
+    "description": "1TB portable SSD with 1050MB/s read speeds. Shock-resistant and compact.",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "20",
+    "name": "Electric Toothbrush",
+    "price": 2999,
+    "description": "Sonic electric toothbrush with 4 cleaning modes and 30-day battery life.",
+    "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=600&h=600&fit=crop&crop=center",
+    "category": "health",
+    "inStock": true
+  },
+  {
+    "id": "21",
+    "name": "Smart Bulb",
+    "price": 1299,
+    "description": "RGB smart bulb with 16 million colors. Works with voice assistants and apps.",
+    "image": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "22",
+    "name": "Water Bottle",
+    "price": 999,
+    "description": "Insulated stainless steel water bottle that keeps drinks cold for 24 hours.",
+    "image": "https://images.unsplash.com/photo-1585296118183-a8a780fd5f51?w=600&h=600&fit=crop&crop=center",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "23",
+    "name": "Laptop Stand",
+    "price": 1499,
+    "description": "Adjustable aluminum laptop stand for better ergonomics and cooling.",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "24",
+    "name": "Wireless Charger",
+    "price": 1999,
+    "description": "15W fast wireless charger with LED indicator and non-slip surface.",
+    "image": "https://images.unsplash.com/photo-1587034869750-18a8de21b159?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "25",
+    "name": "Blender",
+    "price": 6999,
+    "description": "High-speed blender with 1500W motor and 6 preset programs for smoothies and more.",
+    "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "26",
+    "name": "Digital Camera",
+    "price": 58999,
+    "description": "Mirrorless camera with 24MP sensor, 4K video, and weather-sealed body.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "27",
+    "name": "External Battery",
+    "price": 2499,
+    "description": "20000mAh portable charger with 18W PD fast charging and dual USB ports.",
+    "image": "https://images.unsplash.com/photo-1598124146163-36819847286d?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "28",
+    "name": "Desk Chair",
+    "price": 12999,
+    "description": "Ergonomic office chair with lumbar support and adjustable armrests.",
+    "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?w=600&h=600&fit=crop&crop=center",
+    "category": "furniture",
+    "inStock": true
+  },
+  {
+    "id": "29",
+    "name": "Rice Cooker",
+    "price": 3999,
+    "description": "5-cup rice cooker with keep-warm function and non-stick inner pot.",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e1ef?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "30",
+    "name": "Sleep Headphones",
+    "price": 3499,
+    "description": "Ultra-thin Bluetooth headphones designed for side sleepers with 10-hour battery.",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "31",
+    "name": "Massage Gun",
+    "price": 8999,
+    "description": "Deep tissue percussion massager with 5 speed settings and 4 attachments.",
+    "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&h=600&fit=crop&crop=center",
+    "category": "health",
+    "inStock": true
+  },
+  {
+    "id": "32",
+    "name": "Smart Lock",
+    "price": 12999,
+    "description": "Keyless entry smart lock with fingerprint, PIN, and app control. Works with voice assistants.",
+    "image": "https://images.unsplash.com/photo-1595624871930-6e8537998592?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "33",
+    "name": "Projector",
+    "price": 24999,
+    "description": "Full HD 1080p projector with 5000 lumens and built-in Android TV.",
+    "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "34",
+    "name": "Electric Kettle",
+    "price": 1999,
+    "description": "1.7L stainless steel electric kettle with auto shut-off and boil-dry protection.",
+    "image": "https://images.unsplash.com/photo-1606755456206-b25206cde27e?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "35",
+    "name": "Fitness Bike",
+    "price": 34999,
+    "description": "Indoor cycling bike with magnetic resistance and LCD display tracking metrics.",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=600&fit=crop&crop=center",
+    "category": "fitness",
+    "inStock": true
+  },
+  {
+    "id": "36",
+    "name": "Robot Vacuum",
+    "price": 29999,
+    "description": "Smart robot vacuum with LiDAR navigation, app control, and 150min runtime.",
+    "image": "https://images.unsplash.com/photo-1558555645-886e0c5e856a?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "37",
+    "name": "Mechanical Keyboard",
+    "price": 5999,
+    "description": "RGB mechanical keyboard with Cherry MX switches and aluminum frame.",
+    "image": "https://images.unsplash.com/photo-1587829743487-0265b6ef0fe6?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "38",
+    "name": "Action Camera",
+    "price": 24999,
+    "description": "4K action camera with waterproof case, image stabilization, and voice control.",
+    "image": "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "39",
+    "name": "Air Purifier",
+    "price": 14999,
+    "description": "HEPA air purifier for large rooms with smart sensors and auto mode.",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "40",
+    "name": "Gaming Mouse",
+    "price": 3999,
+    "description": "High-precision gaming mouse with 16000 DPI and customizable RGB lighting.",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "41",
+    "name": "Standing Desk",
+    "price": 22999,
+    "description": "Electric height adjustable standing desk with memory presets and dual motors.",
+    "image": "https://images.unsplash.com/photo-1591018653367-9cddbdd5d6a5?w=600&h=600&fit=crop&crop=center",
+    "category": "furniture",
+    "inStock": true
+  },
+  {
+    "id": "42",
+    "name": "Smart Scale",
+    "price": 2999,
+    "description": "Body composition scale that measures weight, body fat, muscle mass and more.",
+    "image": "https://images.unsplash.com/photo-1597709691259-101c9263c7b9?w=600&h=600&fit=crop&crop=center",
+    "category": "health",
+    "inStock": true
+  },
+  {
+    "id": "43",
+    "name": "Car Phone Mount",
+    "price": 999,
+    "description": "Magnetic car phone mount with strong hold and 360° rotation.",
+    "image": "https://images.unsplash.com/photo-1604594849809-dfeddd911019?w=600&h=600&fit=crop&crop=center",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "44",
+    "name": "Electric Scooter",
+    "price": 34999,
+    "description": "Foldable electric scooter with 30km range and 25km/h top speed.",
+    "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=600&h=600&fit=crop&crop=center",
+    "category": "transport",
+    "inStock": true
+  },
+  {
+    "id": "45",
+    "name": "Noise Cancelling Headphones",
+    "price": 18999,
+    "description": "Premium over-ear headphones with industry-leading noise cancellation.",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "46",
+    "name": "Dash Cam",
+    "price": 8999,
+    "description": "2K dash cam with night vision, parking mode, and collision detection.",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "47",
+    "name": "Smart Plug",
+    "price": 1499,
+    "description": "WiFi smart plug that works with voice assistants for remote control of devices.",
+    "image": "https://images.unsplash.com/photo-1595341595379-cf0f2f9b8a6a?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "48",
+    "name": "Wireless Mouse",
+    "price": 1999,
+    "description": "Ergonomic wireless mouse with silent clicks and 12-month battery life.",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "49",
+    "name": "Security Camera",
+    "price": 5999,
+    "description": "1080p outdoor security camera with night vision and motion detection.",
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=600&h=600&fit=crop&crop=center",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "50",
+    "name": "Portable Monitor",
+    "price": 17999,
+    "description": "15.6\" 1080p portable USB-C monitor for laptops, phones, and gaming consoles.",
+    "image": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=600&h=600&fit=crop&crop=center",
+    "category": "electronics",
+    "inStock": true
+  },
+   
+  {
+    "id": "51",
+    "name": "Wireless Earbuds Pro",
+    "price": 8999,
+    "description": "True wireless earbuds with active noise cancellation and 30hr battery life.",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "52",
+    "name": "Ultra HD Smart TV",
+    "price": 65999,
+    "description": "65\" 4K Android TV with Dolby Vision and built-in Google Assistant.",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "53",
+    "name": "Gaming Laptop",
+    "price": 124999,
+    "description": "RTX 3080, 32GB RAM, 1TB SSD - Ultimate gaming performance.",
+    "image": "https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "54",
+    "name": "Smartwatch Pro",
+    "price": 24999,
+    "description": "Health monitoring, GPS, and 2-week battery life with AMOLED display.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "55",
+    "name": "Noise Cancelling Headphones",
+    "price": 18999,
+    "description": "Over-ear headphones with industry-leading ANC technology.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "56",
+    "name": "Mirrorless Camera",
+    "price": 84999,
+    "description": "Professional 24MP camera with 4K video and 5-axis stabilization.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "57",
+    "name": "Portable SSD 2TB",
+    "price": 15999,
+    "description": "Ultra-fast NVMe SSD with 1050MB/s transfer speeds.",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "58",
+    "name": "Robot Vacuum",
+    "price": 34999,
+    "description": "LiDAR navigation, self-emptying base, and mopping functionality.",
+    "image": "https://images.unsplash.com/photo-1558555645-886e0c5e856a?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "59",
+    "name": "Wireless Charging Pad",
+    "price": 2499,
+    "description": "15W fast charging pad compatible with all Qi-enabled devices.",
+    "image": "https://images.unsplash.com/photo-1587034869750-18a8de21b159?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "60",
+    "name": "E-Reader",
+    "price": 12999,
+    "description": "300ppi glare-free display with weeks of battery life.",
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "61",
+    "name": "Bluetooth Speaker",
+    "price": 5999,
+    "description": "360° sound with 20hr playback and IPX7 waterproof rating.",
+    "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "62",
+    "name": "Mechanical Keyboard",
+    "price": 8999,
+    "description": "RGB backlit with Cherry MX switches and aluminum frame.",
+    "image": "https://images.unsplash.com/photo-1587829743487-0265b6ef0fe6?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "63",
+    "name": "Action Camera",
+    "price": 32999,
+    "description": "5K video with advanced stabilization for extreme sports.",
+    "image": "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "64",
+    "name": "Smart Home Hub",
+    "price": 7999,
+    "description": "Control all your smart devices from one central hub.",
+    "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "65",
+    "name": "Fitness Tracker",
+    "price": 3999,
+    "description": "Heart rate monitoring, sleep tracking, and 10-day battery.",
+    "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "66",
+    "name": "Drone Pro",
+    "price": 89999,
+    "description": "4K camera drone with 30min flight time and 7km range.",
+    "image": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "67",
+    "name": "Graphics Tablet",
+    "price": 24999,
+    "description": "10x6 drawing tablet with 8192 pressure sensitivity levels.",
+    "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "68",
+    "name": "Portable Projector",
+    "price": 29999,
+    "description": "Full HD 1080p with built-in Android TV and 5hr battery.",
+    "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "69",
+    "name": "Smart Door Lock",
+    "price": 14999,
+    "description": "Fingerprint, PIN, and app control for keyless home entry.",
+    "image": "https://images.unsplash.com/photo-1595624871930-6e8537998592?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+  {
+    "id": "70",
+    "name": "NAS Storage",
+    "price": 42999,
+    "description": "4-bay network attached storage for secure data backup.",
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=600&h=600&fit=crop",
+    "category": "electronics",
+    "inStock": true
+  },
+
+
+  {
+    "id": "71",
+    "name": "Premium Leather Wallet",
+    "price": 3499,
+    "description": "Genuine leather with RFID protection and 8 card slots.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "72",
+    "name": "Designer Sunglasses",
+    "price": 5999,
+    "description": "UV400 protection with polarized lenses and lightweight frame.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "73",
+    "name": "Stainless Steel Watch",
+    "price": 8999,
+    "description": "Water resistant to 100m with sapphire crystal glass.",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "74",
+    "name": "Laptop Backpack",
+    "price": 4299,
+    "description": "Anti-theft design with USB charging port and water-resistant fabric.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "75",
+    "name": "Silk Tie Collection",
+    "price": 2499,
+    "description": "Set of 3 premium silk ties for formal occasions.",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "76",
+    "name": "Leather Belt",
+    "price": 1999,
+    "description": "Full-grain leather belt with stainless steel buckle.",
+    "image": "https://images.unsplash.com/photo-1595341595379-cf0f2f9b8a6a?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "77",
+    "name": "Cashmere Scarf",
+    "price": 4999,
+    "description": "100% pure cashmere winter scarf in classic colors.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "78",
+    "name": "Designer Handbag",
+    "price": 15999,
+    "description": "Luxury handcrafted leather handbag with gold hardware.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "79",
+    "name": "Silver Cufflinks",
+    "price": 3499,
+    "description": "925 sterling silver cufflinks with gift packaging.",
+    "image": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "80",
+    "name": "Travel Neck Pillow",
+    "price": 1299,
+    "description": "Memory foam neck pillow with washable cover.",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "81",
+    "name": "Leather Gloves",
+    "price": 2999,
+    "description": "Winter gloves with touchscreen compatible fingertips.",
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "82",
+    "name": "Stainless Steel Water Bottle",
+    "price": 1499,
+    "description": "Insulated 1L bottle that keeps drinks cold for 24 hours.",
+    "image": "https://images.unsplash.com/photo-1585296118183-a8a780fd5f51?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "83",
+    "name": "Silk Pocket Square",
+    "price": 999,
+    "description": "Premium silk pocket square for formal suits.",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "84",
+    "name": "Leather Passport Holder",
+    "price": 1799,
+    "description": "Genuine leather with multiple card slots and passport pocket.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "85",
+    "name": "Titanium Eyeglass Frame",
+    "price": 7999,
+    "description": "Lightweight and durable titanium frame for prescription glasses.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "86",
+    "name": "Designer Umbrella",
+    "price": 2499,
+    "description": "Automatic open/close with wind-resistant construction.",
+    "image": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "87",
+    "name": "Leather Briefcase",
+    "price": 12999,
+    "description": "Professional briefcase with laptop compartment and combination lock.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "88",
+    "name": "Silver Money Clip",
+    "price": 1999,
+    "description": "Sleek sterling silver money clip with engraved initials.",
+    "image": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "89",
+    "name": "Wool Beanie",
+    "price": 1299,
+    "description": "100% merino wool winter hat in multiple colors.",
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": "90",
+    "name": "Leather Keychain",
+    "price": 899,
+    "description": "Handcrafted leather keychain with brass hardware.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&h=600&fit=crop",
+    "category": "accessories",
+    "inStock": true
+  },
+
+
+  {
+    "id": "91",
+    "name": "Premium Cotton T-Shirt",
+    "price": 1499,
+    "description": "100% organic cotton crew neck t-shirt in various colors.",
+    "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "92",
+    "name": "Slim Fit Jeans",
+    "price": 2999,
+    "description": "Stretch denim jeans with modern slim fit and distressed finish.",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "93",
+    "name": "Wool Blend Coat",
+    "price": 8999,
+    "description": "Winter coat with 80% wool content and removable inner lining.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "94",
+    "name": "Linen Shirt",
+    "price": 2499,
+    "description": "Breathable linen shirt perfect for summer wear.",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "95",
+    "name": "Performance Running Shorts",
+    "price": 1799,
+    "description": "Lightweight quick-dry shorts with zippered pockets.",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "96",
+    "name": "Cashmere Sweater",
+    "price": 7999,
+    "description": "100% cashmere crew neck sweater in classic colors.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "97",
+    "name": "Denim Jacket",
+    "price": 4999,
+    "description": "Classic denim jacket with sherpa lining and multiple pockets.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "98",
+    "name": "Silk Blouse",
+    "price": 4499,
+    "description": "100% pure silk blouse with French cuffs and mother-of-pearl buttons.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "99",
+    "name": "Yoga Pants",
+    "price": 2299,
+    "description": "High-waisted yoga pants with moisture-wicking fabric.",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "100",
+    "name": "Wool Suit",
+    "price": 18999,
+    "description": "Tailored 100% wool suit with slim fit and premium lining.",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+ {
+    "id": "101",
+    "name": "Puffer Jacket",
+    "price": 6999,
+    "description": "Down-filled winter jacket with water-resistant shell.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "102",
+    "name": "Oxford Shirt",
+    "price": 1999,
+    "description": "Classic button-down shirt in 100% cotton oxford cloth.",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "103",
+    "name": "Jogger Pants",
+    "price": 2499,
+    "description": "Casual joggers with elastic cuffs and drawstring waist.",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "104",
+    "name": "Trench Coat",
+    "price": 9999,
+    "description": "Classic beige trench coat with removable liner.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "105",
+    "name": "Polo Shirt",
+    "price": 1799,
+    "description": "Premium pique cotton polo with embroidered logo.",
+    "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "106",
+    "name": "Wool Scarf",
+    "price": 2999,
+    "description": "100% merino wool scarf in plaid pattern.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "107",
+    "name": "Performance Leggings",
+    "price": 2199,
+    "description": "High-compression leggings with moisture-wicking technology.",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "108",
+    "name": "Denim Shirt",
+    "price": 2799,
+    "description": "Classic denim shirt with pearl snap buttons.",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "109",
+    "name": "Cashmere Wrap",
+    "price": 5999,
+    "description": "Oversized cashmere wrap for all-season wear.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+  {
+    "id": "110",
+    "name": "Bomber Jacket",
+    "price": 5499,
+    "description": "Classic bomber style with quilted lining and ribbed cuffs.",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop",
+    "category": "clothing",
+    "inStock": true
+  },
+
+  {
+    "id": "111",
+    "name": "Memory Foam Mattress",
+    "price": 24999,
+    "description": "10-inch gel memory foam mattress with removable cover.",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "112",
+    "name": "Smart Lighting Kit",
+    "price": 8999,
+    "description": "Set of 4 smart bulbs with color changing and scheduling.",
+    "image": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "113",
+    "name": "Air Purifier",
+    "price": 12999,
+    "description": "HEPA filter with smart sensors for automatic air quality adjustment.",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "114",
+    "name": "Electric Blanket",
+    "price": 4999,
+    "description": "Queen size electric blanket with 10 heat settings.",
+    "image": "https://images.unsplash.com/photo-1603481546579-65d935ba9cdd?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "115",
+    "name": "Robot Vacuum",
+    "price": 29999,
+    "description": "Self-emptying robot vacuum with laser navigation.",
+    "image": "https://images.unsplash.com/photo-1558555645-886e0c5e856a?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "116",
+    "name": "Smart Coffee Maker",
+    "price": 14999,
+    "description": "WiFi enabled coffee maker with grind and brew functionality.",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "117",
+    "name": "Indoor Herb Garden",
+    "price": 7999,
+    "description": "Hydroponic system with LED grow lights and automatic watering.",
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "118",
+    "name": "Smart Thermostat",
+    "price": 9999,
+    "description": "Learning thermostat that adapts to your schedule and saves energy.",
+    "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "119",
+    "name": "Standing Desk",
+    "price": 18999,
+    "description": "Electric height adjustable desk with memory presets.",
+    "image": "https://images.unsplash.com/photo-1591018653367-9cddbdd5d6a5?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "120",
+    "name": "Massage Chair",
+    "price": 89999,
+    "description": "Zero gravity massage chair with body scanning technology.",
+    "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "121",
+    "name": "Air Fryer Oven",
+    "price": 10999,
+    "description": "8-in-1 convection oven with air fry, roast, bake and dehydrate functions.",
+    "image": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "122",
+    "name": "Smart Doorbell",
+    "price": 7999,
+    "description": "Video doorbell with two-way audio and night vision.",
+    "image": "https://images.unsplash.com/photo-1595624871930-6e8537998592?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "123",
+    "name": "Humidifier",
+    "price": 4999,
+    "description": "Ultrasonic cool mist humidifier with essential oil diffuser.",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "124",
+    "name": "Blender",
+    "price": 8999,
+    "description": "Professional blender with 1500W motor for smoothies and soups.",
+    "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "125",
+    "name": "Rice Cooker",
+    "price": 3999,
+    "description": "Fuzzy logic rice cooker with multiple menu options.",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e1ef?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "126",
+    "name": "Electric Kettle",
+    "price": 2499,
+    "description": "Stainless steel kettle with temperature control and keep warm function.",
+    "image": "https://images.unsplash.com/photo-1606755456206-b25206cde27e?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "127",
+    "name": "Food Processor",
+    "price": 6999,
+    "description": "12-cup capacity with multiple blades and attachments.",
+    "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "128",
+    "name": "Slow Cooker",
+    "price": 3499,
+    "description": "6-quart programmable slow cooker with digital timer.",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e1ef?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "129",
+    "name": "Vacuum Cleaner",
+    "price": 12999,
+    "description": "Cordless stick vacuum with 60min runtime and HEPA filtration.",
+    "image": "https://images.unsplash.com/photo-1558555645-886e0c5e856a?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+  {
+    "id": "130",
+    "name": "Smart Plug",
+    "price": 1499,
+    "description": "Control appliances remotely with this WiFi enabled smart plug.",
+    "image": "https://images.unsplash.com/photo-1595341595379-cf0f2f9b8a6a?w=600&h=600&fit=crop",
+    "category": "home",
+    "inStock": true
+  },
+
+  {
+    "id": "131",
+    "name": "Premium Fountain Pen",
+    "price": 4999,
+    "description": "Handcrafted fountain pen with gold nib and gift box.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "132",
+    "name": "Leather Journal",
+    "price": 2999,
+    "description": "Hand-bound leather journal with 192 pages of premium paper.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "133",
+    "name": "Mechanical Pencil Set",
+    "price": 1499,
+    "description": "Set of 3 professional drafting pencils with lead refills.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "134",
+    "name": "Calligraphy Set",
+    "price": 2499,
+    "description": "Complete calligraphy kit with nibs, ink, and practice sheets.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "135",
+    "name": "Desktop Organizer",
+    "price": 1999,
+    "description": "Wooden desk organizer with compartments for stationery.",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "136",
+    "name": "Watercolor Paint Set",
+    "price": 1799,
+    "description": "24-color professional watercolor set with brush.",
+    "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "137",
+    "name": "Stainless Steel Ruler",
+    "price": 899,
+    "description": "30cm precision ruler with non-slip backing.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "138",
+    "name": "Sketchbook",
+    "price": 1299,
+    "description": "Hardcover sketchbook with 120gsm acid-free paper.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "139",
+    "name": "Gel Pen Set",
+    "price": 999,
+    "description": "Set of 12 vibrant gel pens with smooth 0.7mm tips.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "140",
+    "name": "Wooden Pencil Case",
+    "price": 1599,
+    "description": "Handcrafted wooden pencil case with magnetic closure.",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "141",
+    "name": "Notebook Set",
+    "price": 2199,
+    "description": "Set of 3 premium notebooks with dotted, lined and blank pages.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "142",
+    "name": "Correction Tape",
+    "price": 499,
+    "description": "Smooth correction tape with 8m length and sharp tip.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "143",
+    "name": "Sticky Notes",
+    "price": 399,
+    "description": "Assorted color sticky notes in 3 sizes.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "144",
+    "name": "Paper Clips",
+    "price": 199,
+    "description": "Box of 100 colorful stainless steel paper clips.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "145",
+    "name": "Highlighters",
+    "price": 599,
+    "description": "Set of 6 pastel highlighters with chisel tips.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "146",
+    "name": "Stapler",
+    "price": 799,
+    "description": "Heavy-duty stapler with 20-sheet capacity.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "147",
+    "name": "Scissors",
+    "price": 699,
+    "description": "Stainless steel scissors with comfortable grip.",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "148",
+    "name": "Whiteboard",
+    "price": 2499,
+    "description": "60x90cm magnetic whiteboard with markers and eraser.",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "149",
+    "name": "Book Stand",
+    "price": 1299,
+    "description": "Adjustable metal book stand for reading or recipes.",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+  {
+    "id": "150",
+    "name": "Desk Lamp",
+    "price": 1899,
+    "description": "Adjustable LED desk lamp with 5 brightness levels.",
+    "image": "https://images.unsplash.com/photo-1580494767366-6f5c4a1f37a0?w=600&h=600&fit=crop",
+    "category": "stationery",
+    "inStock": true
+  },
+
+  {
+    "id": "151",
+    "name": "Running Shoes",
+    "price": 8999,
+    "description": "Lightweight running shoes with responsive cushioning.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "152",
+    "name": "Yoga Mat",
+    "price": 2499,
+    "description": "Non-slip yoga mat with carrying strap (6mm thickness).",
+    "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "153",
+    "name": "Dumbbell Set",
+    "price": 5999,
+    "description": "Adjustable dumbbells from 5kg to 25kg in 2.5kg increments.",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "154",
+    "name": "Cycling Helmet",
+    "price": 3499,
+    "description": "Lightweight aerodynamic helmet with MIPS protection.",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "155",
+    "name": "Jump Rope",
+    "price": 899,
+    "description": "Weighted speed jump rope with adjustable length.",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "156",
+    "name": "Resistance Bands",
+    "price": 1299,
+    "description": "Set of 5 resistance bands with door anchor and handles.",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "157",
+    "name": "Fitness Tracker",
+    "price": 3999,
+    "description": "Waterproof fitness band with heart rate and sleep tracking.",
+    "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "158",
+    "name": "Punching Bag",
+    "price": 7999,
+    "description": "Heavy-duty punching bag with chains and gloves included.",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "159",
+    "name": "Tennis Racket",
+    "price": 5999,
+    "description": "Graphite tennis racket with vibration dampening technology.",
+    "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "160",
+    "name": "Yoga Blocks",
+    "price": 1499,
+    "description": "Set of 2 high-density foam yoga blocks.",
+    "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "161",
+    "name": "Football",
+    "price": 1999,
+    "description": "Official size and weight football with textured grip.",
+    "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "162",
+    "name": "Basketball",
+    "price": 2499,
+    "description": "Indoor/outdoor basketball with deep channels for better grip.",
+    "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "163",
+    "name": "Gym Gloves",
+    "price": 999,
+    "description": "Padded workout gloves with wrist support.",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "164",
+    "name": "Foam Roller",
+    "price": 1799,
+    "description": "High-density foam roller for muscle recovery.",
+    "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "165",
+    "name": "Swim Goggles",
+    "price": 1299,
+    "description": "Anti-fog swimming goggles with UV protection.",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "166",
+    "name": "Hiking Backpack",
+    "price": 4999,
+    "description": "35L waterproof backpack with hip belt and multiple compartments.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "167",
+    "name": "Kettlebell",
+    "price": 2499,
+    "description": "Cast iron kettlebell with vinyl coating (12kg).",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "168",
+    "name": "Badminton Set",
+    "price": 2999,
+    "description": "Complete set with 2 rackets, shuttlecocks and carry case.",
+    "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "169",
+    "name": "Yoga Towel",
+    "price": 1199,
+    "description": "Non-slip microfiber yoga towel with carrying strap.",
+    "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+  {
+    "id": "170",
+    "name": "Pull-Up Bar",
+    "price": 1999,
+    "description": "Doorway pull-up bar with multiple grip positions.",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=600&fit=crop",
+    "category": "sports",
+    "inStock": true
+  },
+
+  {
+    "id": "171",
+    "name": "Atomic Habits",
+    "price": 499,
+    "description": "James Clear's bestselling book about building good habits.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "172",
+    "name": "The Psychology of Money",
+    "price": 399,
+    "description": "Timeless lessons on wealth, greed, and happiness.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "173",
+    "name": "Ikigai",
+    "price": 349,
+    "description": "The Japanese secret to a long and happy life.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "174",
+    "name": "The Alchemist",
+    "price": 299,
+    "description": "Paulo Coelho's classic novel about following your dreams.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "175",
+    "name": "Sapiens",
+    "price": 599,
+    "description": "Brief history of humankind by Yuval Noah Harari.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "176",
+    "name": "The Subtle Art of Not Giving a F*ck",
+    "price": 449,
+    "description": "Counterintuitive approach to living a good life.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "177",
+    "name": "Rich Dad Poor Dad",
+    "price": 399,
+    "description": "Robert Kiyosaki's lessons about money and investing.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "178",
+    "name": "The 5 AM Club",
+    "price": 349,
+    "description": "Own your morning, elevate your life.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "179",
+    "name": "Think Like a Monk",
+    "price": 499,
+    "description": "Train your mind for peace and purpose every day.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "180",
+    "name": "The Power of Now",
+    "price": 399,
+    "description": "Guide to spiritual enlightenment by Eckhart Tolle.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  },
+  {
+    "id": "181",
+    "name": "Deep Work",
+    "price": 449,
+    "description": "Rules for focused success in a distracted world.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
+    "category": "books",
+    "inStock": true
+  } 
+]
