@@ -22,7 +22,11 @@ Built using only HTML, CSS, and JavaScript, this project showcases the potential
 
 ## 📸 Screenshot
 
-![Image](https://github.com/user-attachments/assets/73638f2e-22f7-4e21-addb-815efa704083)
+![Image](https://github.com/user-attachments/assets/f6b5df06-99b3-4883-8bd9-88cc430a2ee6)
+
+![Image](https://github.com/user-attachments/assets/c089517a-8cec-4920-93f6-6b5ff600b388)
+
+![Image](https://github.com/user-attachments/assets/35053945-ec91-4d9b-916d-161202314405)
 
 ---
 
