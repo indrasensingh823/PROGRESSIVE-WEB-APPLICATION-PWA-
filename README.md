@@ -1,6 +1,28 @@
-# 🛍️ Progressive Web Application (PWA) – E-Commerce Website
+# PROGRESSIVE WEB APPLICATION (PWA)
 
-Welcome to the **Progressive Web App (PWA)** E-Commerce Website — a fully responsive, offline-capable shopping app built using modern web technologies. This project is developed as part of an internship assignment.
+
+---
+**COMPANY**: CODTECH IT SOLUTIONS  
+**NAME**: INDRASEN SINGH  
+**INTERN ID**: CT04DN1461
+**DOMAIN**: FRONT END DEVELOPMENT  
+**DURATION**: 4 WEEKS  
+**MENTOR**: NEELA SANTOSH  
+
+---
+
+Welcome to the **Progressive Web Application (PWA) E-Commerce Website** — a modern, lightweight, and responsive shopping web app developed as part of an internship assignment. This project demonstrates the core capabilities of PWA including offline functionality, installability, and push notifications using Service Workers, Cache API, and manifest configuration. 
+
+The platform dynamically displays products from a JSON file and works seamlessly across devices — whether on mobile, tablet, or desktop. Users can browse products, view details, and simulate cart functionality even in offline mode. The app is designed to be added to a user's home screen and provides a near-native experience.
+
+Built using only HTML, CSS, and JavaScript, this project showcases the potential of web technologies in delivering reliable and engaging user experiences. With focus on performance and usability, this app is a great starting point for anyone interested in building PWAs and understanding modern front-end practices in e-commerce.
+
+
+---
+
+## 📸 Screenshot
+
+![Image](https://github.com/user-attachments/assets/73638f2e-22f7-4e21-addb-815efa704083)
 
 ---
 
@@ -70,12 +92,39 @@ Works offline after first load
 Send push notifications (requires integration with a push service like Firebase)
 
 
-Developer
-Name: Indrasen Singh
+---
 
-College: Veer Bahadur Singh Purvanchal University
+## 🙋‍♂️ About the Developer
 
-Email: indrasens289@gmail.com
+**Name:** Indrasen Singh  
+**Course:** B.Tech – Computer Science  
+**University:** Veer Bahadur Singh Purvanchal University  
+**Email:** indrasens289@gmail.com  
+**GitHub:** [@indrasensingh823](https://github.com/indrasensingh823)
 
-GitHub: @indrasensingh823
+---
+
+## 🧠 What I Learned
+
+- How to build a fully functional PWA using Service Workers and Manifest
+- Techniques to cache assets and JSON data for offline use
+- Implementing responsive design for all screen sizes
+- Real-world experience in creating an e-commerce frontend
+- Version control with Git and deployment on GitHub
+
+---
+
+## 📃 License
+
+This project is released under the [MIT License](LICENSE).  
+Feel free to use, modify, and share it.
+
+---
+
+## 💬 Feedback & Suggestions
+
+If you find any bugs, ideas for improvement, or want to collaborate, feel free to open an issue or contact me via email.
+
+> Thank you for visiting this project! 😊
+
 
